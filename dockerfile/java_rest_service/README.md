@@ -18,5 +18,5 @@ docker run -it -d -p 80:8080 gs_rest_service
 
 check service is working
 ```
-curl localhost/greeting
+curl localhost/greeting?name=Pawel
 ```
